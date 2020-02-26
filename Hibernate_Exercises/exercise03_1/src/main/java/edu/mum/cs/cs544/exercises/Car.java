@@ -1,9 +1,6 @@
 package edu.mum.cs.cs544.exercises;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
 public class Car {
@@ -13,6 +10,9 @@ public class Car {
 	private String brand;
 	private String year;
 	private double price;
+
+	@ManyToOne(cascade = CascadeType.PERSIST)
+	private Owner owner;
 
 	public Car() {
 	}
@@ -53,6 +53,14 @@ public class Car {
 
 	public long getId() {
 		return id;
+	}
+
+	public Owner getOwner() {
+		return owner;
+	}
+
+	public void setOwner(Owner owner) {
+		this.owner = owner;
 	}
 
 }

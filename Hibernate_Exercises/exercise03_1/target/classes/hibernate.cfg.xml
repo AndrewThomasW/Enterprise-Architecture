@@ -24,5 +24,6 @@
 		<!-- Mapping files -->
 		<mapping class="edu.mum.cs.cs544.exercises.Car" />
 		<mapping class="edu.mum.cs.cs544.exercises.Book" />
+		<mapping class="edu.mum.cs.cs544.exercises.Owner" />
 	</session-factory>
 </hibernate-configuration>
