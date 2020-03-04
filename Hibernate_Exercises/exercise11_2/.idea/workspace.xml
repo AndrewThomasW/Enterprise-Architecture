@@ -1,23 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59723141-a137-440b-8767-ed2f5c031866" name="Default Changelist" comment="" />
+    <list default="true" id="59723141-a137-440b-8767-ed2f5c031866" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise12_2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise12_2/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise12_2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise12_2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise12_2/exercise12_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise12_2/src/main/java/cs544/exercise12_1/bank/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise12_2/src/main/java/cs544/exercise12_1/bank/dao/AccountDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise12_2/src/main/java/cs544/exercise12_1/bank/dao/IAccountDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise12_2/src/main/java/cs544/exercise12_1/bank/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise12_2/src/main/java/cs544/exercise12_1/bank/domain/AccountEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise12_2/src/main/java/cs544/exercise12_1/bank/domain/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise12_2/src/main/java/cs544/exercise12_1/bank/jms/IJMSSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise12_2/src/main/java/cs544/exercise12_1/bank/jms/JMSSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise12_2/src/main/java/cs544/exercise12_1/bank/logging/ILogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise12_2/src/main/java/cs544/exercise12_1/bank/logging/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise12_2/src/main/java/cs544/exercise12_1/bank/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise12_2/src/main/java/cs544/exercise12_1/bank/service/CurrencyConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise12_2/src/main/java/cs544/exercise12_1/bank/service/IAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise12_2/src/main/java/cs544/exercise12_1/bank/service/ICurrencyConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise12_2/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise12_2/src/main/resources/springconfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="1YdGJxnfNl9QcSIgcOFapZGKq5x" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../exercise12_2" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -42,17 +74,21 @@
       <option name="presentableId" value="Default" />
       <updated>1583264990075</updated>
       <workItem from="1583264996840" duration="642000" />
+      <workItem from="1583354743949" duration="109000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1583265549236">
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1583354853059">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583265549236" />
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583354853059" />
     <state x="65" y="67" key="new project wizard" timestamp="1583265645533">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
