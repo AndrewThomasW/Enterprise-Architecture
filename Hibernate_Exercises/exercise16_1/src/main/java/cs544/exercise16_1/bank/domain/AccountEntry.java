@@ -1,9 +1,16 @@
 package cs544.exercise16_1.bank.domain;
 
+import javax.persistence.*;
 import java.util.Date;
-
+@Entity
 public class AccountEntry {
+	@Id
+	@GeneratedValue
+	private int id;
+
+	@Temporal(TemporalType.DATE)
 	private Date date;
+
 	private double amount;
 	private String description;
 	private String fromAccountNumber;
